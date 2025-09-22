@@ -114,7 +114,7 @@ ENV PIP_BREAK_SYSTEM_PACKAGES=1
 # ENV PYTHON_BIN_PATH=${PYBIN}/python${PYVER} \
 #     PATH=${PYBIN}:${PATH}
 
-RUN yum install -y \
+RUN yum install --allowerasing -y \
         wget \
         zip \
         ca-certificates \
