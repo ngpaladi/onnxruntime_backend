@@ -124,7 +124,11 @@ RUN yum install --allowerasing -y \
         git \
         gnupg \
         gnupg1 \
-        openssl-devel
+        openssl-devel \
+        automake \
+        gcc-toolset-12 \
+        gcc-toolset-12-libstdc++-devel \
+        cmake 
 
 """
     else:
